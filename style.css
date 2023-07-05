@@ -1,0 +1,23 @@
+.treeview {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.treeview li {
+    cursor: pointer;
+    padding: 0.5em;
+    border-bottom: 1px solid;
+}
+
+.treeview li.active {
+    background-color: #eee;
+}
+
+.treeview li ul {
+    display: none
+}
+
+.treeview li :hover ul {
+    display: block;
+}
